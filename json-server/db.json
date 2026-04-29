@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "부당거래",
+      "director": "류승완",
+      "casting": ["황정민", "류승범", "유해진", "천호진"],
+      "genres": ["수사", "범죄", "드라마", "스릴러", "액션"],
+      "poster": "https://i.namu.wiki/i/kD5hqYHby8KbuNqH1H1XIV1mZgl7OJJao_fXgtS_H2NfO6G_6ujvaeb_HWsVNWjSTaKQ4zv3gvrqWx9-bFS_t9yYp9fY1JP4LOB-a1xS-fA-Am-TlGLbrYUinGtdZaeujLLf2dfrHYnmyLGgNfJUSg.webp"
+    },
+    {
+      "id": "2",
+      "title": "첫사랑 엔딩",
+      "director": "리우유린",
+      "casting": [
+        "송위룡",
+        "류호존"
+      ],
+      "genres": ["청춘", "로맨스"],
+      "poster": "https://i.namu.wiki/i/3HapQO9Nd2qJ9SF2G68NDIzBpiOp9-E8tO6_Jq1vqDsBcxDO2VhgFOpKOaNN_ge6MmQZdcPtgXxk8UEX0pb2GXqMIB7AbSwl7ulBKE1C30J46rL2nteE4qG0bSQVbPeJ3HigR_e8cJ-XQGZFMul6TQ.webp"
+    },
+    {
+      "id": "3",
+      "title": "컨저링",
+      "director": "제임스 완",
+      "casting": ["베라 파미가", "패트릭 윌슨", "릴리 테일러", "론 리빙스턴", "조이 킹", "맥켄지 포이"],
+      "genres": ["공포", "스릴러", "오컬트", "서스펜스", "미스터리"],
+      "poster": "https://i.namu.wiki/i/iXVP4rU-y696awAF9dMUDxPTuMy3WHoy_3cTEzFepUoc3-zIL8MM2X9JDVy3El8-8DlX1AgVD72HrJb7eshau0e7G_FQ1Ds5NQgWi1eLPDUOm9-28igBqoACINnlpIwmbuUCSESTWEVJgxjnNGyhtw.webp"
+    }
+  ],
+
+  "profile": {
+    "name": "typicode"
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
