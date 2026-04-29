@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "왕과 사는 남자",
+      "director": "장항준",
+      "casting": ["유해진", "박지훈", "유지태", "전미도", "김민"],
+      "genres": ["사극", "드라마"],
+      "poster": "https://i.namu.wiki/i/8FBkdgAUpZ77yyR7Guo3bnbT8jL1AmETO8-gjrPwIX9hdkVd5YfX3KZJM2OlYx0oPVyoLy0UAft3wiFX8ZllLeqLUuu0_vg5TGvY-QkhxjCutx7kRKQESQcFu2Y0Rp--YC-Yke9Qmd-hLTCT4f8dGA.webp"
+    },
+    {
+      "id": "2",
+      "title": "살목지",
+      "director": "이상민",
+      "casting": [
+        "김혜윤",
+        "이종원",
+        "김준한",
+        "김영성",
+        "오동민",
+        "윤재찬",
+        "장다아"
+      ],
+      "genres": ["공포", "스릴러", "미스터리"],
+      "poster": "https://i.namu.wiki/i/1n2qEnetArsV9YQqDqjCkWVPk5tQ13nOnL-s5FJWLBigviaTIGLwCLTYZseAmTD3ee5vQ96vdq7Qh6daNcj38X9HRRjMftvNHo3Eh8LgPQvog4dfP4tXYl9nFDmzcvGebqXOssK4TyrE2r-orbBdTg.webp"
+    },
+    {
+      "id": "3",
+      "title": "프로젝트 헤일메리",
+      "director": "필 로드 & 크리스토퍼 밀러",
+      "casting": ["라이언 고슬링", "산드라 휠러"],
+      "genres": ["SF", "드라마", "모험", "재난", "코미디", "스릴러"],
+      "poster": "https://i.namu.wiki/i/g6FKp6QsKm68r2g9tDZZekfuyccdQn5o8rgVZoot4XOJOk5-lf0htkM_ZwXGIIiYSxInh9Ixki6QzLgyWdqGHBN3bzGzCdN1OWf-WWBDCqjiY8qTakb1rOCGdBn0ibewTwN_r2fZi9Io6Ynh4ckmEA.webp"
+    }
+  ]
+}
