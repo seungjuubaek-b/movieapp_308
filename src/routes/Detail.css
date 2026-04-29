@@ -1,0 +1,148 @@
+.detail-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 상단 배너 */
+.detail-banner {
+  background: #d6f0eb;
+  border-radius: 20px;
+  padding: 30px 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-poster {
+  width: 130px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  flex-shrink: 0;
+}
+
+.detail-banner-text {
+  flex: 1;
+}
+
+.detail-tag {
+  font-size: 12px;
+  color: #3aab8e;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.detail-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.detail-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.genre-tag {
+  font-size: 12px;
+  color: #2e8c72;
+  font-weight: 600;
+}
+
+/* 노트 카드 */
+.detail-card {
+  background: #fffef5;
+  border: 2px solid #e0ddd0;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-spiral {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #e8e5d8;
+  padding: 16px 10px;
+  gap: 6px;
+}
+
+.spiral-hole {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #c8c5b8;
+}
+
+.card-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.info-row {
+  display: flex;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #e0ddd0;
+  align-items: flex-start;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #888;
+  min-width: 36px;
+}
+
+.info-value {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.casting {
+  color: #555;
+}
+
+/* 뒤로가기 버튼 */
+.back-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #3aab8e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.back-btn:hover {
+  background: #2e8c72;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 18px;
+  color: #888;
+}
