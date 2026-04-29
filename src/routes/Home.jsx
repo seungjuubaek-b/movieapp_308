@@ -12,30 +12,32 @@ function Home() {
     setIsLoading(false);
   };
 
-  // 서버로부터 데이터 딱 한번만 가져오기
   useEffect(() => {
     getMovies();
   }, []);
 
   return (
-    <>
-      <h1>Movie json-server API</h1>
+    <div style={{ maxWidth: "960px", margin: "0 auto", padding: "20px" }}>
+      <h1 style={{ textAlign: "center" }}>Movie json-server API</h1>
       <hr />
-      {isLoading ? <p>IsLoading...</p> : null}
-      <div>
+      {isLoading ? <p style={{ textAlign: "center" }}>불러오는 중...</p> : null}
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(3, 1fr)",  // 3열 고정
+        gap: "24px",
+        marginTop: "24px",
+      }}>
         {datas.map((data) => (
-          <div key={data.id}>
-            <Movie
-              id={data.id}
-              poster={data.poster}
-              genres={data.genres}
-              title={data.title}
-            />
-          </div>
+          <Movie
+            key={data.id}
+            id={data.id}
+            poster={data.poster}
+            genres={data.genres}
+            title={data.title}
+          />
         ))}
       </div>
-      <ul></ul>
-    </>
+    </div>
   );
 }
 
